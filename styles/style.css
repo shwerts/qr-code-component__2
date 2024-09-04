@@ -1,0 +1,55 @@
+/*
+  Key words:
+  general, container, card,
+  code, heading, text
+*/
+
+/* General settings */
+:root {
+  --slate-300: #D5E1EF;
+  --slate-500: #68778D;
+  --slate-900: #1F314F;
+  font-family: Outfit;
+}
+body {
+  margin: 0;
+  background-color: var(--slate-300);
+}
+
+/* The container */
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The card */
+.qr-card {
+  background-color: white;
+  width: 20rem;
+  max-width: 85vw;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  text-align: center;
+}
+
+/* QR code */
+.qr-image {border-radius: .62rem;}
+
+/* Heading text */
+.heading {
+  margin-top: 1.5rem;
+  font-size: 1.37rem;
+  line-height: 1.2;
+  color: var(--slate-900);
+}
+
+/* Just a text under heading */
+.text {
+  margin: 1rem;
+  font-size: calc(1rem - 1px);
+  letter-spacing: .2px;
+  line-height: 1.4;
+  color: var(--slate-500);
+}
