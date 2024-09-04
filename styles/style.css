@@ -1,5 +1,5 @@
 /*
-  Key words:
+  Key words for class names:
   general, container, card,
   code, heading, text
 */
@@ -37,17 +37,17 @@ main {
 /* QR code */
 .qr-image {border-radius: .62rem;}
 
-/* Heading text */
+/* Heading */
 .heading {
-  margin-top: 1.5rem;
-  font-size: 1.37rem;
+  margin-block-start: 1.5rem;
+  font-size: 1.375rem;
   line-height: 1.2;
   color: var(--slate-900);
 }
 
 /* Just a text under heading */
 .text {
-  margin: 1rem;
+  margin: 1rem 1rem 1.5rem;
   font-size: calc(1rem - 1px);
   letter-spacing: .2px;
   line-height: 1.4;
